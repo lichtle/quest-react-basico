@@ -1,6 +1,6 @@
 const Botao = (props, showLabel) => {
   showLabel = () => {
-    console.log("A label desse botão é: " + "'" + props.label + "'");
+    console.log(`A label desse botão é: "${props.label}"`);
   };
 
   return <button onClick={showLabel}>{props.label}</button>;
