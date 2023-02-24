@@ -1,10 +1,10 @@
-const Paragrafo = (props) => {
+const StyledText = (props) => {
   return <p style={{ color: props.color }}>{props.text.toUpperCase()}</p>;
 };
 
-Paragrafo.defaultProps = {
+StyledText.defaultProps = {
   color: "purple",
   text: "Lorem ipsum dolor",
 };
 
-export default Paragrafo;
+export default StyledText;
